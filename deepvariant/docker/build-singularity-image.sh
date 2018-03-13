@@ -28,8 +28,8 @@ cp ../../LICENSE .
 cp ../../AUTHORS .
 
 # Patch Dockerfile to fix ARG issue
-#cp Dockerfile Dockerfile.old
-#patch < Dockerfile.patch
+cp Dockerfile Dockerfile.old
+patch < Dockerfile.patch
 
 # Or Edit Dockerfile and changed top two lines
 #
